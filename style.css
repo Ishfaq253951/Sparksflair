@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #EED6D3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+  background-color: #67595E;
+  box-shadow: 3px 2.5px gray;
+}
+
+#heading {
+  font-weight: 300;
+  font-size: 3em;
+  text-align: center;
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  color: snow;
+  display: fixed;
+}
+
+#imgBlogger {
+  border: 0.5mm solid gray;
+  height: 1.5cm;
+  width: 1cm;
+  display: flex;
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+  
+}
+
+#blogger {
+  padding-top: 2rem;
+  padding-left: 10px;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 350;
+  color: #36454F;
+}
+
+#updated {
+  margin-right: 10px;
+  display: flex;
+  float: right;
+  color: gray;
+}
+
+#title {
+  font-weight: 425;
+  font-size: 45px;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 5px;
+  color: #37464F; 
+}
+
+p {                   /*Paragraph of Blogs*/
+  margin: 50px;
+  margin-top: 15px;
+  margin-right: 25em;
+  padding: 5px;
+  border: 0.5px solid #A49393;
+  display: fixed;
+  background-color: #E8B4B8;
+  color: #2C3539;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+footer {
+  margin: 10px;
+  display: flex;
+  float: right;
+  color: darkgrey;
+}
+
+/*Image Edit goes here*/
+#images {
+  margin: 15px;
+}
