@@ -39,7 +39,7 @@ body {
   padding-left: 10px;
   display: flex;
   font-size: 2rem;
-  font-weight: 350;
+  font-weight: 300;
   color: #36454F;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 #title {
-  font-weight: 425;
+  font-weight: 400;
   font-size: 45px;
   margin-top: 10px;
   margin-left: 20px;
@@ -59,23 +59,75 @@ body {
   color: #37464F; 
 }
 
+.container {
+  position: relative;
+}
+
 p {                   /*Paragraph of Blogs*/
   margin: 50px;
   margin-top: 15px;
-  margin-right: 25em;
+  margin-right: 27em;
   padding: 5px;
   border: 0.5px solid #A49393;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   display: fixed;
   background-color: #E8B4B8;
   color: #2C3539;
   font-size: 1.5em;
   font-weight: 300;
+  cursor: text;
+}
+
+#reference {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 1em;
+  right: 10em;
+  opacity: 50;
+  font-size: 30px;
+}
+
+ul {
+  list-style: square 5px;
+}
+
+#ref {
+  position: absolute;
+  top: 3em;
+  right: 2em;
+  background: #A49393;
+  padding: 15px;
+  border: 1px solid black;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 25px;
+  width: 20em;
+  opacity: 75;
+}
+
+a {
+  padding-left: 20px;
+  color: mediumblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: skyblue;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 footer {
-  margin: 10px;
+  padding: 15px;
+  margin-top: 25px;
   display: flex;
-  float: right;
+  text-align: left;
   color: darkgrey;
 }
 
